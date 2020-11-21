@@ -27,8 +27,8 @@ db.Usage.belongsTo(db.User);
 |:-----------:|:---:|:---:|:---:|:---:|
 |**로그인**|`~/auth/signin`|![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) POST|Body|application/json|
 |**회원가입**|`~/auth/signup`|![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) POST|Body|application/json|
-|**플레이리스트  추가**|`~/playlist`|![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) POST|Body|application/json|
-|**플레이리스트  조회**|`~/playlist?playtime=(playtime) & category=(category)`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Query param|application/json|
+|**플레이리스트 &nbsp; &nbsp; 추가**|`~/playlist`|![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) POST|Body|application/json|
+|**플레이리스트 &nbsp; &nbsp; 조회**|`~/playlist?playtime=(playtime) & category=(category)`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Query param|application/json|
 |**사용시간 (사용량 조회)**|`~/usage`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Header|application/json|
 
 👉🏻 [API 명세서 바로가기][api]
