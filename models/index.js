@@ -14,10 +14,10 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 db.User = require('./user')(sequelize, Sequelize);
 db.Playlist = require('./playlist')(sequelize, Sequelize);
-db.Time = require('./usage')(sequelize, Sequelize);
+db.Usage = require('./usage')(sequelize, Sequelize);
 
-// User:Time    1:N
+// User:Usage    1:N
 db.User.hasMany(db.Time);
-db.Time.belongsTo(db.User);
+db.Usage.belongsTo(db.User);
 
 module.exports = db;
