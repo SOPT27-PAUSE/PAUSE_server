@@ -7,6 +7,8 @@ module.exports = {
   PLAYLIST_CREATE_FAIL: "플레이리스트 생성 실패",
   PLAYLIST_READ_SUCCESS: "플레이리스트 조회 성공",
   PLAYLIST_READ_FAIL: "플레이리스트 조회 실패",
+  USAGE_TIME_SUCCESS: "이용시간 조회 성공",
+  USAGE_TIME_FAIL: "이용시간 조회 실패",
   MEMBER_READ_SUCCESS: "회원 조회 성공",
   MEMBER_READ_FAIL: "회원 조회 실패",
   MEMBER_READ_ALL_SUCCESS: "전체 회원 조회성공",

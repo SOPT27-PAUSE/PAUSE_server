@@ -17,7 +17,7 @@ db.Playlist = require('./playlist')(sequelize, Sequelize);
 db.Usage = require('./usage')(sequelize, Sequelize);
 
 // User:Usage    1:N
-db.User.hasMany(db.Time);
+db.User.hasMany(db.Usage);
 db.Usage.belongsTo(db.User);
 
 module.exports = db;
