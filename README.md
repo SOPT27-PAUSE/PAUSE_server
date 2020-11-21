@@ -23,11 +23,13 @@ db.Usage = require('./usage')(sequelize, Sequelize);
 db.User.hasMany(db.Usage);
 db.Usage.belongsTo(db.User);
 ```
+<br>
 
 ## BASE URL
 ### http://sopkathon-pause.tk
 👆🏻 클릭해 보세요!😀
 
+<br>
 
 ## API 명세서
 |기능|URI|METHOD|요청값|Content-Type|
@@ -40,15 +42,21 @@ db.Usage.belongsTo(db.User);
 
 👉🏻 [API 명세서 바로가기][api]
 
+<br>
+
 ## 기능 소개 
 - **Signin**: 로그인 기능
 - **SignUp**: 회원가입 기능으로, 서버에서 등록하는 용도로만 쓰였다.
 - **Playlist**: 플레이스트를 DB에 등록하고, 조건에 맞는(시간/카테고리) 플레이리스트를 조회한다. (등록은 서버 전용)
 - **Usage**: 회원이 설정한 시간/시청한 시간을 1주 단위로 한 눈에 확인할 수 있으며, 주 평균 시청 시간과 총 절제한 시간을 확인할 수 있다.
 
+<br>
+
 ## 업무 분담
 - **석영현** : ERD 설계, Playlist, Usage
 - **신연상** : ERD 설계, Signin & Signup, Usage
+
+<br>
 
 ## package.json
 ```json
