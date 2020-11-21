@@ -4,6 +4,8 @@
 > ### 알고리즘의 늪에서 나를 구할, 영상 시청 시간 관리 앱. 
 > ### 일상을 위한 멈춤, Pause.
 
+![Pause](https://user-images.githubusercontent.com/63148508/99887976-328bd300-2c8c-11eb-976a-ef44bf29f19a.png)
+
 <br>
 
 ## ERD
