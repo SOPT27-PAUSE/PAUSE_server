@@ -25,7 +25,7 @@ db.Usage.belongsTo(db.User);
 ```
 
 ## BASE URL
-### http://sopkathon-paus.tk
+### http://sopkathon-pause.tk
 👆🏻 클릭해 보세요!😀
 
 
