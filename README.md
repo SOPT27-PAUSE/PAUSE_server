@@ -26,7 +26,11 @@ db.Time.belongsTo(db.User);
 |**플레이리스트조회**|`~/playlist?time=(time) & category=(category)`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Query param|application/json|
 |**사용시간(사용량 조회)**|`~/usage`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Header|application/json|
 
+[API 명세서 바로가기][api]
+
 ## 기능 소개 
 
 
 ## package.json
+
+[api]: https://github.com/SOPT27-PAUSE/PAUSE_server/wiki
