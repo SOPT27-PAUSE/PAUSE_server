@@ -20,8 +20,12 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
+        count: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        }
     }, {
         freezeTableName: true,
-        timetables: false,
+        timestamps: false,
     })
 }
