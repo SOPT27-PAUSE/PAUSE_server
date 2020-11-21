@@ -2,15 +2,11 @@ const util = require('../modules/util');
 const responseMessage = require('../modules/responseMessage');
 const statusCode = require('../modules/statusCode');
 const { Playlist } = require('../models');
-const upload = multer({
-    dest: 'upload/'
-})
 
 module.exports = {
     createPlaylist: async (req, res) => {
         try {
-            const { image } = req.file;
-            const { uri, category, title, playtime } = req.body;
+            const { uri, category, image, title, playtime } = req.body;
 
             if(!uri || !category || !image || !title || !playtime) {
                 res.status(statusCode.BAD_REQUEST).send(util.fail(statusCode.BAD_REQUEST, responseMessage.NULL_VALUE));

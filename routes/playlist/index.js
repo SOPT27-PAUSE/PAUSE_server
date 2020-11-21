@@ -3,5 +3,5 @@ const router = express.Router();
 const playlistController = require('../../controller/playlistController');
 const upload = require('../../modules/multer');
 
-router.post('/', upload.single('image'), playlistController.createPlaylist);
+router.post('/', playlistController.createPlaylist);
 router.get('/', playlistController.readAll);
