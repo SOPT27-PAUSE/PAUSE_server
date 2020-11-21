@@ -1,7 +1,8 @@
 # Pause
 <img src="https://imgur.com/spjezf0.png" width="40%">
 
-> ### 끝없는 유튜브 알고리즘, 사용자가 원하는 만큼만 볼 수 있도록 도와주는 서비스 
+> ### 알고리즘의 늪에서 나를 구할, 영상 시청 시간 관리 앱. 
+> ### 일상을 위한 멈춤, Pause.
 
 ## ERD
 <img src="https://imgur.com/DZ8wNtt.png" width="80%">
