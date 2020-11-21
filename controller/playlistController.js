@@ -45,7 +45,8 @@ module.exports = {
                 where: {
                     playtime: { [Op.lte]: [playtime]},
                     category: category,
-                }
+                },
+                order: [['playtime',  'DESC']]
             })
             console.log(playlists);
 
