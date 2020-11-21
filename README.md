@@ -31,6 +31,10 @@ db.Time.belongsTo(db.User);
 ## 기능 소개 
 
 
+## 업무 분담
+- **석영현** : 
+- **신연상** : 
+
 ## package.json
 
 [api]: https://github.com/SOPT27-PAUSE/PAUSE_server/wiki
