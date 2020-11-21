@@ -26,6 +26,7 @@ db.Usage.belongsTo(db.User);
 
 ## BASE URL
 ### http://sopkathon-paus.tk
+👆🏻 클릭해 보세요!😀
 
 
 ## API 명세서
