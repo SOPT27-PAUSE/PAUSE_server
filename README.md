@@ -22,6 +22,10 @@ db.User.hasMany(db.Usage);
 db.Usage.belongsTo(db.User);
 ```
 
+## BASE URL
+### http://sopkathon-paus.tk
+
+
 ## API 명세서
 |기능|URI|METHOD|요청값|Content-Type|
 |:-----------:|:---:|:---:|:---:|:---:|
@@ -40,8 +44,8 @@ db.Usage.belongsTo(db.User);
 - **Usage**: 회원이 설정한 시간/시청한 시간을 1주 단위로 한 눈에 확인할 수 있으며, 주 평균 시청 시간과 총 절제한 시간을 확인할 수 있다.
 
 ## 업무 분담
-- **석영현** : Playlist, Usage
-- **신연상** : Signin & Signup, Usage
+- **석영현** : ERD 설계, Playlist, Usage
+- **신연상** : ERD 설계, Signin & Signup, Usage
 
 ## package.json
 ```json
