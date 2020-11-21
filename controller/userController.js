@@ -13,10 +13,11 @@ module.exports = {
     signup: async (req, res) => {
         const {
             loginId,
+            userName,
             password
         } = req.body;
 
-        if (!loginId || !password) {
+        if (!loginId || !password || !userName) {
             console.log('필요한 값이 없습니다');
             return res.status(statusCode.BAD_REQUEST).send(util.fail(statusCode.BAD_REQUEST, responseMessage.NULL_VALUE));
         }
@@ -38,12 +39,14 @@ module.exports = {
 
             const user = await User.create({
                 loginId,
+                userName,
                 password: hashedPassword,
                 salt,
             });
 
             return res.status(statusCode.OK).send(util.success(statusCode.OK, responseMessage.SIGN_UP_SUCCESS, {
                 loginId,
+                userName,
                 id: user.id
             }));
         } catch (err) {
