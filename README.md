@@ -1,6 +1,7 @@
-# PAUSE
+# Pause
+![Logo](https://imgur.com/spjezf0.png)
 
-## 끝없는 유튜브 알고리즘, 사용자가 원하는 만큼만 볼 수 있도록 도와주는 서비스 
+> ### 끝없는 유튜브 알고리즘, 사용자가 원하는 만큼만 볼 수 있도록 도와주는 서비스 
 
 ## ERD
 ![ERD](https://imgur.com/DZ8wNtt.png)
