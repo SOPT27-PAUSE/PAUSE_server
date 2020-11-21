@@ -4,7 +4,7 @@
 > ### 끝없는 유튜브 알고리즘, 사용자가 원하는 만큼만 볼 수 있도록 도와주는 서비스 
 
 ## ERD
-![ERD](https://imgur.com/DZ8wNtt.png)
+<img src="https://imgur.com/DZ8wNtt.png" width="80%">
 
 ## models/index.js
 ```javascript
