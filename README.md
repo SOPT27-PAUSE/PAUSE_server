@@ -21,10 +21,10 @@ db.Time.belongsTo(db.User);
 ## API 명세서
 |기능|URI|METHOD|요청값|Content-Type|
 |:---:|:---:|:---:|:---:|:---:|
-|**로그인**|`/auth/signin`|POST|Body|application/json|
-|**회원가입**|`/auth/signup`|POST|Body|application/json|
-|**플레이리스트조회**|`~/playlist?time=(time) & category=(category)`|GET|Query param|application/json|
-|**사용시간(사용량 조회)**|`~/usage`|GET|Header|application/json|
+|**로그인**|`/auth/signin`|![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) POST|Body|application/json|
+|**회원가입**|`/auth/signup`|![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) POST|Body|application/json|
+|**플레이리스트조회**|`~/playlist?time=(time) & category=(category)`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Query param|application/json|
+|**사용시간(사용량 조회)**|`~/usage`|![#008000](https://via.placeholder.com/15/008000/000000?text=+) GET|Header|application/json|
 
 ## 기능 소개 
 
